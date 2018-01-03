@@ -46,4 +46,14 @@ public class Cat {
   public Person getOwner() {
     return owner;
   }
+
+  @Override
+  public String toString() {
+    return "Cat{" +
+            "name='" + name + '\'' +
+            ", favoriteFood='" + favoriteFood + '\'' +
+            ", age=" + age +
+            ", owner=" + owner +
+            '}';
+  }
 }
